@@ -1941,6 +1941,7 @@ body.dark-mode .faq-cta-content p {
 }
 /* =========================
    ACCESSIBILITY
+===========================*/
 @media (prefers-reduced-motion: reduce) {
 
   footer.site-footer::after,
@@ -1958,12 +1959,14 @@ body.dark-mode .faq-cta-content p {
 
 /* =========================
    QUIZ SECTION SCROLLBAR
+===========================*/
 #level-chain-wrapper::-webkit-scrollbar {
   display: none;
 }
 
 /* =========================
    PRINT STYLES
+===========================*/
 @media print {
 
   .why-section::before,
@@ -1978,6 +1981,7 @@ body.dark-mode .faq-cta-content p {
 
 /* =========================
    FOOTER (GLOBAL)
+===========================*/
 footer.site-footer {
   position: relative;
   overflow: hidden;
@@ -2234,6 +2238,7 @@ body.dark-mode footer.site-footer {
 
 /* =========================
    RESOURCE LINKS
+===========================*/
 .resource-link-wrapper {
   display: flex;
   align-items: center;
@@ -2272,6 +2277,7 @@ body.dark-mode footer.site-footer {
 
 /* =========================
    DARK MODE FIXES
+===========================*/
 body.dark-mode .navbar,
 body.dark-mode header {
   background-color: rgba(27, 38, 59, 0.98);
